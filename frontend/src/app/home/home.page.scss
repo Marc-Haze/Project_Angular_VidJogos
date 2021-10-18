@@ -1,0 +1,45 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+  --background: none;
+  background-image: url('/assets/images/background.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#titulo{
+  text-align: center;
+  color: rgb(238, 238, 238);
+  font-weight: 100%;
+  font-style: bold;
+  background-color: #4b536d;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}

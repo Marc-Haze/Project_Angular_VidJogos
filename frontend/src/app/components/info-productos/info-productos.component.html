@@ -1,0 +1,12 @@
+<ion-item id="container"><ion-title id="titulo">TODOS NUESTROS JUEGOS</ion-title></ion-item>
+<ion-list id="lista">
+    <ion-card *ngFor="let producto of productos" id="carta">  
+        <ion-card-header>
+          <button>
+            <ion-img id="image" src="./assets/images/productos/{{producto.image}}"></ion-img>
+            <ion-card-subtitle>{{producto.description}}</ion-card-subtitle>
+            <ion-card-title>{{producto.name}} - {{producto.price}}</ion-card-title>
+          </button>
+        </ion-card-header>
+     </ion-card>
+</ion-list>

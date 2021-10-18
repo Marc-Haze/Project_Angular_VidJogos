@@ -1,0 +1,50 @@
+#form-login{
+    max-width: 70%;
+    margin-top: 3%;
+    padding-left: 25%;
+    float: left;
+}
+
+#tituloLogIn{
+    text-align: center;
+    margin-right: 25%;
+    font-size: 270%;
+    font-style: bold;
+    color: rgb(36, 38, 114);
+}
+
+#form-register{
+    max-width: 70%;
+    margin-top: 3%;
+    margin-right: 25%;
+    float:right;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 270%;
+    font-style: bold;
+    color: rgb(36, 38, 114);
+}
+
+#subtitulo{
+    text-align: center;
+    font-size: 135%;
+    font-style: bold;
+    color: rgb(36, 38, 114);
+    padding-left: 10%;
+}
+
+#recuperarPass{
+    color:rgb(36, 38, 114);
+    font-size: large;
+    font-weight: bold;
+}
+
+#button{
+    margin-top: 5%;
+}
+
+#checkbox{
+    margin-left: 5%;
+}

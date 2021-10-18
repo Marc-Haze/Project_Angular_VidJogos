@@ -1,0 +1,13 @@
+<!-- SLIDER CON CARDS PARA LA PRESENTACIÓN DE LOS EMPLEADOS -->
+<ion-item id="container"><ion-title id="titulo">Nuestro Personal</ion-title></ion-item>
+<ion-slides class="slider">
+  <ion-slide>
+      <ion-card *ngFor="let empleado of empleados">
+        <ion-card-header>
+          <ion-img src="./assets/images/empleados/{{empleado.image}}"></ion-img>
+          <ion-card-subtitle>{{empleado.job}}</ion-card-subtitle>
+          <ion-card-title>{{empleado.name}}</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+  </ion-slide>
+</ion-slides>

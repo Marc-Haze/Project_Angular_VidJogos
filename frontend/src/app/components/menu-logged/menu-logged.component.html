@@ -1,0 +1,31 @@
+<ion-toolbar color="dark">
+  <div></div>
+  <ion-img class="logo" src=".\assets\icon\textlogo.png" (click)="goToHome()"> </ion-img>
+  <ion-buttons class="navigator">
+    <!-- NAVEGADOR-->
+    <ion-button shape="round" color="light" strong="true" (click)="goToProducts()">PS5</ion-button>
+    <ion-button shape="round" color="light" strong="true" (click)="goToProducts()">XBOX: Series X</ion-button>
+    <ion-button shape="round" color="light" strong="true" (click)="goToProducts()">N. SWITCH</ion-button>
+    <ion-button shape="round" color="danger" strong="true" (click)="goToProducts()">OFERTAS</ion-button>
+    <ion-button shape="round" color="light" strong="true" (click)="goToProducts()">SEMI-NUEVOS</ion-button>
+    <ion-button shape="round" color="light" strong="true" (click)="goToProducts()">PS4</ion-button>
+    <ion-button shape="round" color="light" strong="true" (click)="goToProducts()">PC</ion-button>
+    <ion-button shape="round" color="light" strong="true" (click)="goToAboutUs()">Contáctanos</ion-button>
+    <!-- FORM BUSCADOR-->
+    <form action="" class="buscador">
+      <ion-searchbar searchIcon="false">  
+        <ion-button color="medium" strong="true" (click)="validateForm()">
+          <ion-icon name="search-outline"></ion-icon>
+        </ion-button>
+      </ion-searchbar>
+    </form>
+    <!-- LOG IN / SETTINGS-->
+    <ion-button shape="round" color="light" strong="true" (click)="goToHome()">
+      <ion-icon name="person-outline"></ion-icon>
+      <ion-text>Desconectarse</ion-text>
+    </ion-button>
+      <ion-button shape="round" color="light" strong="true" (click)="goToSettings()">
+        <ion-icon name="settings-outline"></ion-icon>
+      </ion-button>
+  </ion-buttons>
+</ion-toolbar>

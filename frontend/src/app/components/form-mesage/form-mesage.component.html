@@ -1,0 +1,12 @@
+<ion-title id="titulo">¿En qué podemos ayudarte?</ion-title>
+<div id="contenedor-form">
+  <form (ngSubmit)="submit()" >
+    <ion-item><ion-input type="text" placeholder="Tu Nombre" name="name" required></ion-input></ion-item>
+    <br>
+    <ion-item><ion-input type="text" placeholder="Tu Email" name="name" required></ion-input></ion-item>
+    <br>
+    <ion-item id="textarea"><ion-textarea placeholder="Escribe tu mensaje" auto-grow="true"required></ion-textarea></ion-item>
+    <ion-button id="button" type="submit" color="tertiary" size="large">Enviar</ion-button>
+  </form>
+</div>
+

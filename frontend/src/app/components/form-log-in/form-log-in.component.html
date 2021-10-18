@@ -1,0 +1,27 @@
+<div id="form-login">
+  <ion-title id="tituloLogIn">Bienvenido</ion-title>
+  <ion-label id="subtitulo">Accede a tu perfil</ion-label>
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <ion-item><ion-input type="username" formControlName="username" placeholder="Usuario" name="username" required></ion-input></ion-item>
+    <br>
+    <ion-item><ion-input type="password" formControlName="password" placeholder="Contraseña" name="password" required></ion-input></ion-item>
+    <br>
+    <ion-button id="button" type="submit" color="tertiary" size="large">Acceder</ion-button>
+    <ion-checkbox color="primary" id="checkbox"></ion-checkbox><ion-label> Mantener sesión</ion-label>
+  </form><br>
+  <ion-button fill="clear" size="small"><ion-label id="recuperarPass">¿Has olvidado tu contraseña?</ion-label></ion-button>
+</div>
+<div id="form-register">
+  <ion-title id="titulo">¿Nuevo por aquí?</ion-title>
+  <ion-label id="subtitulo">Date de alta como nuevo usuario</ion-label>
+  <form (ngSubmit)="submit()" >
+    <ion-item><ion-input type="text" placeholder="Correo Electrónico" name="email" required></ion-input></ion-item>
+    <br>
+    <ion-item><ion-input type="text" placeholder="Nombre de Usuario" name="name" required></ion-input></ion-item>
+    <br>
+    <ion-item><ion-input type="text" placeholder="Contraseña" name="pass" required></ion-input></ion-item>
+    <br>
+    <ion-button id="button" type="submit" color="tertiary" size="large">Registrarse</ion-button>
+  </form>
+</div>
+

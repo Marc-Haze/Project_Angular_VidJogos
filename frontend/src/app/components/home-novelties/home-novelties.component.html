@@ -1,0 +1,11 @@
+<!-- SLIDER CON CARDS PARA LA PRESENTACIÓN DE NOVEDADES -->
+<ion-slides class="slider">
+  <ion-slide>
+      <ion-card *ngFor="let producto of productos">
+        <ion-card-header>
+          <button><ion-img src="./assets/images/productos/{{producto.image}}"></ion-img></button>
+          <ion-card-title>{{producto.name}} - {{producto.price}}</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+  </ion-slide>
+</ion-slides>

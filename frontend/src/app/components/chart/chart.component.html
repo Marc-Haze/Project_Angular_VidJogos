@@ -1,0 +1,17 @@
+<!-- SLIDER CON CARDS PARA LA PRESENTACIÓN DEL CARRITO -->
+<ion-item>
+  <ion-title id="titulo">Mis Pedidos</ion-title>
+  <ion-button class="botonPedido" shape="round" color="tertiary" strong="true">Realizar Pedido</ion-button>
+</ion-item>
+<ion-slides>
+  <ion-slide class="card">
+      <ion-card *ngFor="let producto of productos">
+        <ion-card-header>
+          <ion-img src="./assets/images/productos/{{producto.image}}" class="imagenPedido"></ion-img>
+          <ion-card-subtitle>Producto: {{producto.name}}</ion-card-subtitle>  
+          <ion-card-subtitle>Estado: En Tienda</ion-card-subtitle>  
+          <ion-button shape="round" color="light" strong="true"><ion-label>Revisar</ion-label></ion-button>
+        </ion-card-header>
+      </ion-card>
+  </ion-slide>
+</ion-slides>
