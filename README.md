@@ -45,6 +45,8 @@ First we can clone the repository directly into our local workspace.
 Now that we got the Backend and the Frontend folder. ![image](https://user-images.githubusercontent.com/91074603/137822363-5c0fad25-27d7-4426-a1f8-084b54221f39.png)
 
 Database:
+
+  Ports Used: 3306
   
   - You can import the database from backend/database/db_vidjogos.sql or use the SQL sentences in the .txt and do it manually.
   - I launched MySQL from Xampp and then used MySQL Workbench to manage te DB
