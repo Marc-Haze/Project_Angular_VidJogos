@@ -1,4 +1,4 @@
-# FrontendProject_Angular_VidJogos
+# Project_Angular_VidJogos
 
 A website for a gameshop that includes a Frontend created with Angular (Using the framework Ionic) and a Backend programmed in a Spring Boot proyect.
 
