@@ -38,11 +38,15 @@ We´ll get these done in the next steps for the installing guide, but we need to
 
 ## Installing
 
-First we can clone the repository directly into our local workspace
+First we can clone the repository directly into our local workspace.
 
     $ git clone https://github.com/Marc-Haze/FrontendProject_Angular_VidJogos.git
 
 Now that we got the Backend and the Frontend folder. ![image](https://user-images.githubusercontent.com/91074603/137822363-5c0fad25-27d7-4426-a1f8-084b54221f39.png)
+
+Database:
+  
+  - You can import the database from backend/database/db_vidjogos.sql or use the SQL sentences in the .txt to do it manually.
 
 Eclipse:
 
