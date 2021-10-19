@@ -46,7 +46,9 @@ Now that we got the Backend and the Frontend folder. ![image](https://user-image
 
 Database:
   
-  - You can import the database from backend/database/db_vidjogos.sql or use the SQL sentences in the .txt to do it manually.
+  - You can import the database from backend/database/db_vidjogos.sql or use the SQL sentences in the .txt and do it manually.
+  - I launched MySQL from Xampp and then used MySQL Workbench to manage te DB
+  - Once the database is launched, you can launch your Backend from Eclipse
 
 Eclipse:
 
